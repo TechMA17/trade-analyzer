@@ -12,5 +12,8 @@
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="TradeAnalyzerJPA.jar" deploy-path="/lib" handle="module:/resource/TradeAnalyzerJPA/TradeAnalyzerJPA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>

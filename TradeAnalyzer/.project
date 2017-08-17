@@ -6,6 +6,7 @@
 		<project>TradeAnalyzerEJB</project>
 		<project>TradeAnalyzerEJBClient</project>
 		<project>TradeAnalyzerAppClient</project>
+		<project>TradeAnalyzerJPA</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
