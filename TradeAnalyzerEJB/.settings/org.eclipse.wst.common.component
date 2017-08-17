@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TradeAnalyzerEJB">
+        <wb-resource deploy-path="/" source-path="/ejbModule" tag="defaultRootSource"/>
+        <property name="java-output-path" value="/TradeAnalyzerEJB/build/classes"/>
+        <property name="ClientProject" value="TradeAnalyzerEJBClient"/>
+        <property name="ClientJARURI" value="TradeAnalyzerEJBClient.jar"/>
+    </wb-module>
+</project-modules>
