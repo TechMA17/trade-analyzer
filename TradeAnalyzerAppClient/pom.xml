@@ -6,10 +6,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>app-client</packaging>
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.jboss.as/jboss-as-ejb-client-bom -->
 		<dependency>
 			<groupId>org.jboss.as</groupId>
 			<artifactId>jboss-as-ejb-client-bom</artifactId>
+			<version>7.5.16.Final-redhat-1</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.as</groupId>
+			<artifactId>jboss-as-jms-client-bom</artifactId>
 			<version>7.5.16.Final-redhat-1</version>
 			<type>pom</type>
 		</dependency>

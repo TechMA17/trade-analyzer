@@ -20,11 +20,10 @@ public class Main {
 			prop.put(Context.INITIAL_CONTEXT_FACTORY,
 					org.jboss.naming.remote.client.InitialContextFactory.class.getName());
 			prop.put(Context.URL_PKG_PREFIXES, "org.jboss.ejb.client.naming");
-			prop.put(Context.PROVIDER_URL, "http-remoting://localhost:8080");
+			prop.put(Context.PROVIDER_URL, "remote://localhost:8080");
 			prop.put("jboss.naming.client.ejb.context", true);
 			System.out.println(prop);
 			
-
 			
 			// Create the JNDI InitialContext.
 			Context context = new InitialContext(prop);

@@ -28,6 +28,6 @@
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="/TradeAnalyzerEJBClient"/>
+	<classpathentry exported="true" kind="src" path="/TradeAnalyzerEJBClient"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
